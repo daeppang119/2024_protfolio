@@ -36,7 +36,7 @@ export default function Footer() {
                 <GithubSvg />
               </Link>
             </li>
-            <li className="pl-3.5">
+            <li className="pl-4">
               <Link href={`https://velog.io/@yundutls/posts`}>
                 <VelogSvg />
               </Link>

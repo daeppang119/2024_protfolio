@@ -19,7 +19,6 @@
 body {
   height: 100%;
   font-family: Inter, Arial, PingFangSC-Regular, "Microsoft YaHei", sans-serif;
-  background: #222;
   scrollbar-width: none;
 }
 &::-webkit-scrollbar {
