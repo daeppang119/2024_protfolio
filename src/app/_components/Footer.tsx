@@ -5,8 +5,8 @@ import VelogSvg from "../_svg/VelogSvg";
 
 export default function Footer() {
   return (
-    <div className="bg-[#222] text-xs">
-      <div className="flex flex-wrap  items-center justify-between border-t border-gray-800 px-[32px] py-[48px] text-[#969086]">
+    <footer className="absolute bottom-0 w-full text-xs">
+      <div className="flex flex-wrap  items-center justify-between border-t border-[#969086] px-[32px] py-[48px] text-[#969086]">
         <div>
           <ul className="uppercase">
             <li>
@@ -23,7 +23,9 @@ export default function Footer() {
               <p>phone : 010.9348.9119</p>
             </li>
             <li className="pt-2">
-              <p>e-mail : yundutls@gmail.com</p>
+              <p>
+                e-mail : <span className="lowercase">yundutls@gmail.com</span>
+              </p>
             </li>
           </ul>
         </div>
@@ -42,6 +44,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
