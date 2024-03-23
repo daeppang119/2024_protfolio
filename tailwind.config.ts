@@ -10,7 +10,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        dark: "#222",
+        black: "#222",
+        white: "#f1f1f1",
+      },
+      keyframes: {
+        fadeIn: { "100%": { transform: "translateY(0)", opacity: "1" } },
+        rolling: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(1turn)" },
+        },
+      },
+      animation: {
+        actHeaderFadeIn: "fadeIn .6s ease 1s forwards",
+        actFooterFadeIn: "fadeIn .6s ease 1.4s forwards",
+        actRolling: "rolling 15s linear infinite",
       },
     },
   },

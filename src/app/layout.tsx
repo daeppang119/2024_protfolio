@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="dark:bg-dark">
+      <body className="dark:bg-black">
         <Header />
         <main>{children}</main>
         <Footer />
