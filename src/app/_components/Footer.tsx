@@ -5,7 +5,7 @@ import VelogSvg from "../_svg/VelogSvg";
 
 export default function Footer() {
   return (
-    <footer className="animate-actFooterFadeIn absolute bottom-0 z-10 w-full translate-y-[125px] bg-white text-xs dark:bg-black">
+    <footer className="z-10 w-full bg-white text-xs dark:bg-black">
       <div className="flex flex-wrap  items-center justify-between border-t border-[#969086] px-[32px] py-[48px] text-[#969086]">
         <div>
           <ul className="uppercase">

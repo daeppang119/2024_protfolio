@@ -4,8 +4,8 @@ export default function AboutSvg() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="300"
-      height="300"
+      width="current"
+      height="current"
       viewBox="0 0 300 300"
       className="dark:text-white"
     >

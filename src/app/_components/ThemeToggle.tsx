@@ -26,7 +26,7 @@ export default function ThemeToggle() {
     // 클라이언트에서 서버로 데이터를 전송
     updateThemeOnServer(darkMode);
   }, [darkMode]);
-
+  // 컴퓨터 테마 그거 알아내고 나서 로컬스토리지에 저장한거 보여주게..!!(이건 월요일날~)
   const updateThemeOnServer = async (isDarkMode: boolean) => {
     try {
       const response = await fetch("/api/theme", {
