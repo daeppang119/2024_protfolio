@@ -34,7 +34,6 @@ const config: Config = {
       fontFamily: {
         miracle: ["Miracle"],
         gowun: ["Gowun Batang", "serif"],
-        sunflower: ["Sunflower", "sans-serif"],
       },
     },
   },

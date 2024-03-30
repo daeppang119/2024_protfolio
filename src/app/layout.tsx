@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./_components/Header";
+import Provider from "./Provider";
 
 export const metadata: Metadata = {
   title: {
@@ -18,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="dark:bg-black">
-        <Header />
-        <main>{children}</main>
+        <Provider>
+          <Header />
+          <main>{children}</main>
+        </Provider>
       </body>
     </html>
   );

@@ -24,15 +24,15 @@ export default function Homepage() {
               href={"/project"}
               className="relative flex h-[300px] w-[300px] items-center justify-center hover:grayscale dark:grayscale-[0.9]"
             >
-              <div className="animate-actRolling h-[300px] w-[300px]">
+              <div className="h-[300px] w-[300px] animate-actRolling">
                 <ProjectSvg />
               </div>
               <div className="absolute">
                 <Image
                   src={projectImg}
                   alt="project이동"
-                  width={120}
-                  height={120}
+                  width={200}
+                  height={200}
                 />
               </div>
             </Link>
@@ -42,7 +42,7 @@ export default function Homepage() {
               href={"/about"}
               className="relative flex h-[300px] w-[300px] items-center justify-center hover:grayscale dark:grayscale-[0.9]"
             >
-              <div className="animate-actRolling h-[300px] w-[300px]">
+              <div className="h-[300px] w-[300px] animate-actRolling">
                 <AboutSvg />
               </div>
               <div className="absolute">

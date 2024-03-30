@@ -15,17 +15,17 @@ export default function About() {
           about
         </h2>
         <div className="absolute left-[5vw] top-1/2 translate-y-[-50%] text-[6vw] font-light uppercase leading-snug tracking-tight text-black dark:text-white">
-          <p className="animate-actAboutShowOne translate-y-[50px] opacity-0">
+          <p className="translate-y-[50px] animate-actAboutShowOne opacity-0">
             a story of
           </p>
-          <p className="animate-actAboutShowTwo ml-[14vw] translate-y-[50px] opacity-0">
+          <p className="ml-[14vw] translate-y-[50px] animate-actAboutShowTwo opacity-0">
             creative
             <em className="not-italic text-[#9b9377] dark:text-[#969086]">
               {" "}
               fornt-end
             </em>
           </p>
-          <p className="animate-actAboutShowThree translate-y-[50px] opacity-0">
+          <p className="translate-y-[50px] animate-actAboutShowThree opacity-0">
             <em className="not-italic text-[#9b9377] dark:text-[#969086]">
               developer
             </em>
@@ -38,10 +38,10 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="relative dark:bg-[#e5e3dc]">
+      <section className="relative bg-[#beb6a9] text-white dark:bg-[#e5e3dc] dark:text-black">
         <div className="px-[10vw] py-[13vw] text-center">
           <h4 className="z-10 text-[8vw] uppercase">who am i?</h4>
-          <div className="animate-actRolling absolute right-[24vw] top-[9vw] w-[15vw]">
+          <div className="absolute right-[24vw] top-[9vw] w-[15vw] animate-actRolling">
             <AboutMESvg />
           </div>
           <div>
@@ -53,7 +53,7 @@ export default function About() {
             <div className="font-gowun leading-relaxed">
               <p>
                 안녕하세요 저는 프론트엔드 개발자 박유나 입니다.
-                <br /> &quot;저는 시작한 일은 포기하지 않고 반드시 끈내는 성격을
+                <br /> &quot;저는 시작한 일은 포기하지 않고 반드시 끝내는 성격을
                 가지고 있습니다.&quot;
               </p>
               <p className="my-10">
@@ -82,12 +82,12 @@ export default function About() {
       </section>
       <section className="relative dark:bg-[#e5e3dc]"></section>
       <section>
-        <ul className="font-sunflower flex text-5xl dark:text-[#969086]">
+        <ul className="flex text-5xl dark:text-[#969086]">
           <li className="flex h-[250px] w-2/4 items-center justify-center text-center">
             <Link href={"/"}>Home</Link>
           </li>
           <li className="flex h-[250px] w-2/4 items-center justify-center border-l border-[#969086] text-center">
-            <Link href={"/projcet"}>Project</Link>
+            <Link href={"/project"}>Project</Link>
           </li>
         </ul>
       </section>
