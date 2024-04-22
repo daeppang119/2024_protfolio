@@ -8,14 +8,11 @@ export default function ProjectTitle() {
       </h2>
       <div className="absolute left-[5vw] top-1/2 translate-y-[-50%] text-[6vw] font-light uppercase leading-snug tracking-tight">
         <p className="translate-y-[50px] animate-actAboutShowOne opacity-0">
-          react & next.js
+          fornt-end
         </p>
         <p className="ml-[14vw] translate-y-[50px] animate-actAboutShowTwo opacity-0">
           projcet
           <em className="not-italic text-[#c3c1bc]"> experience</em>
-        </p>
-        <p className="translate-y-[50px] animate-actAboutShowThree opacity-0">
-          <em className="not-italic text-[#c3c1bc]">developer</em>
         </p>
         <div className="mt-7 text-[3vw] tracking-normal">
           <span className="inline-block h-px w-[400px] bg-[#c3c1bc]"></span>
