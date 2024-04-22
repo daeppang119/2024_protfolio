@@ -4,7 +4,7 @@ import ModeBtn from "./ModeBtn";
 export default function MainHeader() {
   return (
     <header
-      className={`border-b-color absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b px-8 opacity-0`}
+      className={`absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b border-b-color bg-black px-8 opacity-0`}
     >
       <h1 className="text-2xl uppercase">
         <Link className="text-Jacquard" href={"/"} replace>

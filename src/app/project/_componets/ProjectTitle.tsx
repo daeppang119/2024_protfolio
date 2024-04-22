@@ -2,18 +2,26 @@ import React from "react";
 
 export default function ProjectTitle() {
   return (
-    <section className="relative flex h-screen items-center justify-center overflow-hidden">
-      <div>
-        <div className="mb-8">
-          <p className="animate-actProjcetFadeInOne translate-y-1/2 text-7xl opacity-0">
-            프로젝트.페이지인데..
+    <section className="relative h-screen p-[32px]">
+      <h2 className="h-0 w-0 overflow-hidden indent-[-9999px] leading-[0px]">
+        projcet
+      </h2>
+      <div className="absolute left-[5vw] top-1/2 translate-y-[-50%] text-[6vw] font-light uppercase leading-snug tracking-tight">
+        <p className="translate-y-[50px] animate-actAboutShowOne opacity-0">
+          react & next.js
+        </p>
+        <p className="ml-[14vw] translate-y-[50px] animate-actAboutShowTwo opacity-0">
+          projcet
+          <em className="not-italic text-[#c3c1bc]"> experience</em>
+        </p>
+        <p className="translate-y-[50px] animate-actAboutShowThree opacity-0">
+          <em className="not-italic text-[#c3c1bc]">developer</em>
+        </p>
+        <div className="mt-7 text-[3vw] tracking-normal">
+          <span className="inline-block h-px w-[400px] bg-[#c3c1bc]"></span>
+          <p className="inline-block pl-2 font-thin lowercase text-[#c3c1bc]">
+            projcet
           </p>
-          <p className="animate-actProjcetFadeInTwo translate-y-1/2 pt-4 text-7xl opacity-0">
-            멘트 추천좀..
-          </p>
-        </div>
-        <div className="animate-actProjcetFadeInThree flex translate-y-3/4 items-center justify-center opacity-0">
-          <p className="">Scroll down</p>
         </div>
       </div>
     </section>

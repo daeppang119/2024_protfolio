@@ -23,14 +23,14 @@ export default function About() {
             </p>
             <p className="ml-[14vw] translate-y-[50px] animate-actAboutShowTwo opacity-0">
               creative
-              <em className="not-italic text-[#9b9377]"> fornt-end</em>
+              <em className="not-italic text-[#c3c1bc]"> fornt-end</em>
             </p>
             <p className="translate-y-[50px] animate-actAboutShowThree opacity-0">
-              <em className="not-italic text-[#9b9377]">developer</em>
+              <em className="not-italic text-[#c3c1bc]">developer</em>
             </p>
             <div className="mt-7 text-[3vw] tracking-normal">
-              <span className="inline-block h-px w-[400px] bg-[#c3b996]"></span>
-              <p className="inline-block pl-2 font-thin lowercase text-[#c3b996] ">
+              <span className="inline-block h-px w-[400px] bg-[#c3c1bc]"></span>
+              <p className="inline-block pl-2 font-thin lowercase text-[#c3c1bc] ">
                 about me
               </p>
             </div>
@@ -83,7 +83,7 @@ export default function About() {
             <li className="flex h-[250px] w-2/4 items-center justify-center text-center">
               <Link href={"/"}>Home</Link>
             </li>
-            <li className="border-b-color flex h-[250px] w-2/4 items-center justify-center border-l text-center">
+            <li className="flex h-[250px] w-2/4 items-center justify-center border-l border-b-color text-center">
               <Link href={"/project"}>Project</Link>
             </li>
           </ul>
