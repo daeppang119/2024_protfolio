@@ -5,8 +5,8 @@ import VelogSvg from "../_svg/VelogSvg";
 
 export default function Footer() {
   return (
-    <footer className="z-10 w-full bg-white text-xs dark:bg-black">
-      <div className="flex flex-wrap  items-center justify-between border-t border-[#969086] px-[32px] py-[48px] text-[#969086]">
+    <footer className="z-10 w-full text-xs">
+      <div className="border-b-color flex flex-wrap items-center justify-between border-t px-8 py-12">
         <div>
           <ul className="uppercase">
             <li>

@@ -3,11 +3,15 @@ import React from "react";
 
 export default function MainFooter() {
   return (
-    <footer className="animate-actFooterFadeIn absolute bottom-0 z-10 w-full translate-y-[125px] bg-white text-xs dark:bg-black">
-      <div className="flex flex-wrap  items-center justify-between border-t border-[#969086] px-[32px] py-[16px] text-[#969086]">
+    <footer className="absolute bottom-0 z-10 w-full translate-y-[125px] animate-actFooterFadeIn text-xs">
+      <div className="flex flex-wrap items-center justify-between px-8 py-4">
         <div>
           <p className="uppercase">Next.js</p>
         </div>
+        <ul className="absolute left-1/2 top-1/2 flex -translate-y-1/2 translate-x-[-47%] gap-6 text-xs">
+          <li>Fornt-end Developer</li>
+          <li>ⓒ Yuna’s Portfolio 2024</li>
+        </ul>
         <div>
           <ul className="flex flex-wrap">
             <li>

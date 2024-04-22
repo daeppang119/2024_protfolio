@@ -1,19 +1,17 @@
 import Link from "next/link";
-import DarkModeBtn from "./DarkModeBtn";
+import ModeBtn from "./ModeBtn";
 
 export default function Header() {
   return (
     <header
-      className={`absolute z-10 flex w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b border-[#969086] bg-white px-[32px] py-[16px] opacity-0 dark:bg-black`}
+      className={`border-b-color absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b px-8 opacity-0`}
     >
-      <div className="text-2xl uppercase">
-        <Link href={"/"} className="text-black dark:text-white">
+      <h1 className="text-2xl uppercase">
+        <Link href={"/"} replace>
           yuna.
         </Link>
-      </div>
-      <div>
-        <DarkModeBtn />
-      </div>
+      </h1>
+      <ModeBtn />
     </header>
   );
 }

@@ -10,17 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        black: "#222",
-        white: "#f1f1f1",
+        "b-color": "#3a3a3a",
       },
       keyframes: {
         fadeIn: {
-          // "0%": { transform: "translateY(50px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
         rolling: {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(1turn)" },
+        },
+        popIn: {
+          "100%": { transform: "scale(1)", opacity: "1" },
         },
       },
       animation: {
@@ -30,10 +31,15 @@ const config: Config = {
         actAboutShowOne: "fadeIn 1.3s .1s forwards",
         actAboutShowTwo: "fadeIn 1.3s .3s forwards",
         actAboutShowThree: "fadeIn 1.3s .5s forwards",
+        actPopShow: "popIn 0.8s cubic-bezier(.175,.885,.32,1.275) forwards",
+        actProjcetFadeInOne: "fadeIn .8s ease .3s forwards",
+        actProjcetFadeInTwo: "fadeIn .8s ease .4s forwards",
+        actProjcetFadeInThree: "fadeIn .4s ease .8s forwards",
       },
       fontFamily: {
         miracle: ["Miracle"],
         gowun: ["Gowun Batang", "serif"],
+        Merriweather: ["Merriweather", "serif"],
       },
     },
   },
