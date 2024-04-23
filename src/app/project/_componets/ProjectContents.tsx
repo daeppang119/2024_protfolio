@@ -78,7 +78,7 @@ export default function ProjectContents() {
               <li className="relative">
                 <span className="absolute -top-1/2 left-0 -z-10 h-8 w-8 translate-y-[10%] rounded-full bg-neutral-200"></span>
                 <Link
-                  href={"https://camperspot.vercel.app/"}
+                  href={"https://2024-protfolio.vercel.app/"}
                   target="blank"
                   className="ml-4"
                 >

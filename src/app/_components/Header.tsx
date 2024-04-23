@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ModeBtn from "./ModeBtn";
+import DarkTheme from "./DarkTheme";
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
           yuna.
         </Link>
       </h1>
-      <ModeBtn />
+      <DarkTheme />
     </header>
   );
 }

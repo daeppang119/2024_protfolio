@@ -1,10 +1,11 @@
 import Link from "next/link";
-import ModeBtn from "./ModeBtn";
+import ModeBtn from "./DarkTheme";
+import DarkTheme from "./DarkTheme";
 
 export default function MainHeader() {
   return (
     <header
-      className={`absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b border-b-color bg-black px-8 opacity-0`}
+      className={`absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b border-b-color px-8 opacity-0`}
     >
       <h1 className="text-2xl uppercase">
         <Link className="text-Jacquard" href={"/"} replace>
@@ -19,7 +20,7 @@ export default function MainHeader() {
           <Link href={"mailto:yundutls@gmail.com"}>yundutls@gmail.com</Link>
         </li>
       </ul>
-      <ModeBtn />
+      <DarkTheme />
     </header>
   );
 }

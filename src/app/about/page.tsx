@@ -36,7 +36,7 @@ export default function About() {
             </div>
           </div>
         </section>
-        <section className="relative bg-[#beb6a9]">
+        <section className="relative bg-[#cccac6] text-neutral-500">
           <div className="px-[10vw] py-[13vw] text-center">
             <h4 className="z-10 text-[8vw] uppercase">who am i?</h4>
             <div className="absolute right-[24vw] top-[9vw] w-[15vw] animate-actRolling">
@@ -51,27 +51,19 @@ export default function About() {
               <div className="font-gowun leading-relaxed">
                 <p>
                   안녕하세요 저는 프론트엔드 개발자 박유나 입니다.
-                  <br /> &quot;저는 시작한 일은 포기하지 않고 반드시 끝내는
-                  성격을 가지고 있습니다.&quot;
+                  <br /> &quot;강한 성장 욕구를 동력 삼아 어려운 상황에서도
+                  끊임없이 학습하고 익혀 나아가고 있습니다.&quot;
                 </p>
-                <p className="my-10">
-                  뒤늦게 대학교 졸업하고 개발에 흥미가 생겨 꾸준한 학습을 통해
-                  실제 코드에 적용하는 노력을 기울이고
-                  <br /> 또한 개발뿐만 아니라 기획, 디자인, 서비스 차원에도
-                  생각하기 위해 노력하고 있습니다.
-                </p>
-                <div className="flex justify-between">
+                <div className="my-10 flex justify-between">
                   <p className="w-[48%] text-justify">
-                    캔버스 같은 흰 화면이 코드를 통해 하나씩 채워지는 것을
-                    직관적으로 확인할 수 있어 프론트엔드라는 직업이 매력적으로
-                    느껴졌고 원하는 것을 직접 이뤘을 때 너무나도 큰 성취감이
-                    있고 흠이롭게 다가왔습니다.
+                    UI/UX 디자이너 또는 퍼블리셔로 일을 해 온 경험을 통해 커리어
+                    개발에 대한 욕구와 새로운 분야에 대한 호기심을 바탕으로
+                    커리어 전환을 지속적으로 시도해 오고 있습니다.
                   </p>
                   <p className="w-[48%] text-justify">
-                    아직 서툴고 부족하기에 많이 배워야하고 더 많이 노력이
-                    필요하다는 것을 알고 있기에 실패에 두려워하지 않고, 항상
-                    노력하며 끊임없이 공부하고 센스있는 프론트엔드 개발자로
-                    성장할 수 있도록 노력하겠습니다.
+                    서비스 기획에 관하여 의사소통을 해 본 경험을 통해 서비스
+                    만드는 일은 다양한 사람들의 의견을 취합해 가며 더 나은
+                    결과물을 만들어 나가는 과정이라는 점을 이해하게 되었습니다.
                   </p>
                 </div>
               </div>

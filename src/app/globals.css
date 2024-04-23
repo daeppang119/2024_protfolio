@@ -5,15 +5,39 @@
 @font-face {
   font-family: "Merriweather", "serif";
   src: url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-  /* src: url("/public/font/Notable-Regular.ttf"); */
+}
+
+:root {
+  --color-primary-accent: #2614c7;
+  --color-primary: #000;
+  --color-button: #3d486c;
+  --color-paragraph: #797979;
+  --color-button-text: rgb(255, 255, 255);
+  --color-background: #fff;
+  --color-anchor: #000aff;
+}
+
+[data-theme="dark"] {
+  --color-primary-accent: #00ff4c;
+  --color-primary: #fff;
+  --color-button: #00ff4c;
+  --color-paragraph: #8a8a8a;
+  --color-button-text: rgb(0, 0, 0);
+  --color-background: #000;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: #000;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-primary);
   scrollbar-width: none;
   scroll-behavior: smooth;
-  color: #f1f1f1;
 }
 
 &::-webkit-scrollbar {

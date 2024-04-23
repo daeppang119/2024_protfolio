@@ -4,9 +4,11 @@ import { useTheme } from "next-themes";
 import { useEffect } from "react";
 import { CiDark, CiLight } from "react-icons/ci";
 
-export default function ModeBtn() {
+export default function DarkTheme() {
   const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const handleToggleTheme = () => {
+    theme === "dark" ? setTheme("light") : setTheme("dark");
+  };
 
   useEffect(() => {
     if (!theme) {
@@ -15,11 +17,7 @@ export default function ModeBtn() {
   }, [systemTheme, theme, setTheme]);
 
   return (
-    <button
-      onClick={() => {
-        setTheme(currentTheme === "dark" ? "light" : "dark");
-      }}
-    >
+    <button onClick={handleToggleTheme}>
       {theme === "light" ? <CiLight size={26} /> : <CiDark size={26} />}
     </button>
   );
