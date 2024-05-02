@@ -7,37 +7,39 @@
   src: url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 }
 
-:root {
-  --color-primary-accent: #2614c7;
-  --color-primary: #000;
-  --color-button: #3d486c;
-  --color-paragraph: #797979;
-  --color-button-text: rgb(255, 255, 255);
-  --color-background: #fff;
-  --color-anchor: #000aff;
-}
+@layer base {
+  :root {
+    --color-primary-accent: #2614c7;
+    --color-primary: #000;
+    --color-button: #3d486c;
+    --color-paragraph: #797979;
+    --color-button-text: rgb(255, 255, 255);
+    --color-background: #fff;
+    --color-line: #3a3a3a;
+  }
 
-[data-theme="dark"] {
-  --color-primary-accent: #00ff4c;
-  --color-primary: #fff;
-  --color-button: #00ff4c;
-  --color-paragraph: #8a8a8a;
-  --color-button-text: rgb(0, 0, 0);
-  --color-background: #000;
+  .dark {
+    --color-primary-accent: #00ff4c;
+    --color-primary: #fff;
+    --color-button: #00ff4c;
+    --color-paragraph: #8a8a8a;
+    --color-button-text: rgb(0, 0, 0);
+    --color-background: #000;
+    --color-line: #3a3a3a;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    @apply bg-color-background text-color-primary;
+  }
 }
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  background-color: var(--color-background);
-  color: var(--color-primary);
-  scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
 &::-webkit-scrollbar {

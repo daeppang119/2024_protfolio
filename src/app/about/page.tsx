@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div>
+    <div className="select-none">
       <Header />
       <div className="font-miracle">
         <section className="relative h-screen p-[32px]">
@@ -50,7 +50,8 @@ export default function About() {
               </h5>
               <div className="font-gowun leading-relaxed">
                 <p>
-                  안녕하세요 저는 프론트엔드 개발자 박유나 입니다.
+                  안녕하세요 저는 프론트엔드 개발자{" "}
+                  <span className="font-bold">박유나</span> 입니다.
                   <br /> &quot;강한 성장 욕구를 동력 삼아 어려운 상황에서도
                   끊임없이 학습하고 익혀 나아가고 있습니다.&quot;
                 </p>

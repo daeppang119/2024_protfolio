@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectTitle() {
   return (
-    <section className="relative h-screen p-[32px]">
+    <section className="relative h-screen select-none p-[32px]">
       <h2 className="h-0 w-0 overflow-hidden indent-[-9999px] leading-[0px]">
         projcet
       </h2>

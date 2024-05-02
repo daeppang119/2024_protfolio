@@ -5,9 +5,9 @@ import DarkTheme from "./DarkTheme";
 export default function MainHeader() {
   return (
     <header
-      className={`absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b border-b-color px-8 opacity-0`}
+      className={`border-color-line bg-color-background absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b px-8 opacity-0`}
     >
-      <h1 className="text-2xl uppercase">
+      <h1 className="text-color-primary-accent text-2xl uppercase">
         <Link className="text-Jacquard" href={"/"} replace>
           yuna.
         </Link>

@@ -41,7 +41,7 @@ export default function Homepage() {
               </div>
             </Link>
           </li>
-          <li className="border-b-color flex h-screen w-1/2 scale-50 animate-actPopShow items-center justify-center border-l border-dashed opacity-0 delay-300">
+          <li className="border-color-line flex h-screen w-1/2 scale-50 animate-actPopShow items-center justify-center border-l border-dashed opacity-0">
             <Link
               href={"/about"}
               className="relative flex h-[300px] w-[300px] items-center justify-center grayscale duration-500 hover:scale-[1.15] hover:grayscale-0"

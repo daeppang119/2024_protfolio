@@ -7,7 +7,7 @@ import protofolioImg from "../../../../public/images/protfolio.png";
 export default function ProjectContents() {
   return (
     <>
-      <section className="bg-[#cccac6] p-24">
+      <section className="select-none bg-[#cccac6] p-24">
         <h3 className="h-0 w-0 overflow-hidden indent-[-9999px] leading-[0px]">
           첫번째 프로젝트 캠퍼 스팟
         </h3>
@@ -62,7 +62,7 @@ export default function ProjectContents() {
           </div>
         </section>
       </section>
-      <section className="bg-[#cccac6] p-24">
+      <section className="select-none bg-[#cccac6] p-24">
         <h3 className="h-0 w-0 overflow-hidden indent-[-9999px] leading-[0px]">
           두번째 프로젝트 캠퍼 스팟
         </h3>

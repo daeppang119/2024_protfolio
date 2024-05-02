@@ -8,7 +8,7 @@ export default function MainFooter() {
         <div>
           <p className="uppercase">Next.js</p>
         </div>
-        <ul className="absolute left-1/2 top-1/2 flex -translate-y-1/2 translate-x-[-47%] gap-6 text-xs">
+        <ul className="absolute left-1/2 top-1/2 flex -translate-y-1/2 translate-x-[-47%] select-none gap-6 text-xs">
           <li>Fornt-end Developer</li>
           <li>ⓒ Yuna’s Portfolio 2024</li>
         </ul>

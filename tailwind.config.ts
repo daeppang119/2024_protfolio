@@ -10,7 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "b-color": "#3a3a3a",
+        ["color-primary-accent"]: "var(--color-primary-accent)",
+        ["color-primary"]: "var(--color-primary)",
+        ["color-button"]: "var(--color-button)",
+        ["color-paragraph"]: "var(--color-paragraph)",
+        ["color-button-text"]: "var(--color-button-text)",
+        ["color-background"]: "var(--color-background)",
+        ["color-line"]: "var(--color-line)",
       },
       keyframes: {
         fadeIn: {
