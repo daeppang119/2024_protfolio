@@ -15,7 +15,8 @@ const config: Config = {
         ["color-button"]: "var(--color-button)",
         ["color-paragraph"]: "var(--color-paragraph)",
         ["color-button-text"]: "var(--color-button-text)",
-        ["color-background"]: "var(--color-background)",
+        ["color-primary-bg"]: "var(--color-primary-bg)",
+        ["color-secondary-bg"]: "var(--color-secondary-bg)",
         ["color-line"]: "var(--color-line)",
       },
       keyframes: {
@@ -43,9 +44,9 @@ const config: Config = {
         actProjcetFadeInThree: "fadeIn .4s ease .8s forwards",
       },
       fontFamily: {
-        miracle: ["Miracle"],
-        gowun: ["Gowun Batang", "serif"],
-        Merriweather: ["Merriweather", "serif"],
+        PGG: ["PuradakGentleGothicR"],
+        Abel: ["Abel", "sans-serif"],
+        Sedan: ["Sedan SC", "serif"],
       },
     },
   },

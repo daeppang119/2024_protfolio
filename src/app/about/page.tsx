@@ -3,6 +3,7 @@ import Footer from "../_components/Footer";
 import AboutMESvg from "../_svg/AboutMESvg";
 import Link from "next/link";
 import Header from "../_components/Header";
+import RightArrowSvg from "../_svg/RightArrowSvg";
 
 export const metadata: Metadata = {
   title: "About",
@@ -36,7 +37,7 @@ export default function About() {
             </div>
           </div>
         </section>
-        <section className="relative bg-[#cccac6] text-neutral-500">
+        <section className="relative bg-[#e5e3dc]">
           <div className="px-[10vw] py-[13vw] text-center">
             <h4 className="z-10 text-[8vw] uppercase">who am i?</h4>
             <div className="absolute right-[24vw] top-[9vw] w-[15vw] animate-actRolling">
@@ -71,12 +72,12 @@ export default function About() {
             </div>
           </div>
         </section>
-        <section>
-          <ul className="flex text-5xl">
+        <section className="bg-color-secondary-bg">
+          <ul className="font-Sedan flex text-5xl">
             <li className="flex h-[250px] w-2/4 items-center justify-center text-center">
               <Link href={"/"}>Home</Link>
             </li>
-            <li className="flex h-[250px] w-2/4 items-center justify-center border-l border-b-color text-center">
+            <li className="flex h-[250px] w-2/4 items-center justify-center border-l border-color-line text-center">
               <Link href={"/project"}>Project</Link>
             </li>
           </ul>

@@ -1,13 +1,12 @@
 import Link from "next/link";
-import ModeBtn from "./DarkTheme";
 import DarkTheme from "./DarkTheme";
 
 export default function MainHeader() {
   return (
     <header
-      className={`border-color-line bg-color-background absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b px-8 opacity-0`}
+      className={`font-Abel bg-color-primary-bg absolute z-10 flex h-12 w-full translate-y-[-65px] animate-actHeaderFadeIn items-center justify-between border-b border-color-line px-8 opacity-0`}
     >
-      <h1 className="text-color-primary-accent text-2xl uppercase">
+      <h1 className="text-2xl uppercase text-color-primary-accent">
         <Link className="text-Jacquard" href={"/"} replace>
           yuna.
         </Link>

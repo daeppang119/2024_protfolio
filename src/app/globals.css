@@ -3,28 +3,43 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Merriweather", "serif";
-  src: url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+  font-family: "PuradakGentleGothicR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Abel", "sans-serif";
+  src: url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+}
+
+@font-face {
+  font-family: "Sedan SC", "serif";
+  src: url("https://fonts.googleapis.com/css2?family=Abel&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sedan+SC&display=swap");
 }
 
 @layer base {
   :root {
-    --color-primary-accent: #2614c7;
-    --color-primary: #000;
+    --color-primary-accent: #40350f;
+    --color-primary: #222;
     --color-button: #3d486c;
-    --color-paragraph: #797979;
+    --color-paragraph: #cecece;
     --color-button-text: rgb(255, 255, 255);
-    --color-background: #fff;
-    --color-line: #3a3a3a;
+    --color-primary-bg: #fff;
+    --color-secondary-bg: #fff;
+    --color-line: #cecece;
   }
 
   .dark {
-    --color-primary-accent: #00ff4c;
-    --color-primary: #fff;
+    --color-primary-accent: #f1f1f1;
+    --color-primary: #f1f1f1;
     --color-button: #00ff4c;
     --color-paragraph: #8a8a8a;
     --color-button-text: rgb(0, 0, 0);
-    --color-background: #000;
+    --color-primary-bg: #000;
+    --color-secondary-bg: #222;
     --color-line: #3a3a3a;
   }
 
@@ -34,7 +49,7 @@
     margin: 0;
     scrollbar-width: none;
     scroll-behavior: smooth;
-    @apply bg-color-background text-color-primary;
+    @apply bg-color-primary-bg text-color-primary;
   }
 }
 
